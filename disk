@@ -1,0 +1,3 @@
+10 load "disk.bin" code
+20 Randomise usr 26368
+

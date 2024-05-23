@@ -1,0 +1,11 @@
+new DSK /home/graham/work/dev/z80/Projects/DiskLoader/dev.dsk
+
+add /home/graham/work/dev/z80/Projects/DiskLoader/out/diskload.bin diskload.bin code codeload=26368
+add /home/graham/work/dev/z80/Projects/DiskLoader/out/diskcat.bin diskcat.bin code codeload=28672
+add /home/graham/work/dev/z80/Projects/DiskLoader/out/keyboard.bin keyboard.bin code codeload=28032
+add /home/graham/work/dev/z80/Projects/DiskLoader/out/loadprog.bin loadprog.bin code codeload=27776
+add /home/graham/work/dev/z80/Projects/DiskLoader/out/loaddiskinf.bin loadinfo.bin code codeload=27648
+add /home/graham/work/dev/z80/Projects/DiskLoader/disk.info disk.inf code codeload=49152
+add /home/graham/work/dev/z80/Projects/DiskLoader/disk.bas disk text line=1
+ 
+cat
