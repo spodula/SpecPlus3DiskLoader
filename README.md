@@ -60,7 +60,7 @@ NOTES - Any text you want to put in there.
 
 Eg, 
 
-ANTATTAK Ant attack*Quicksilva*1983*Classic ant attack game.]
+ANTATTAK Ant attack\*Quicksilva\*1983\*Classic ant attack game.]
 
 ANTIRAD  Sacred armour of Antirad*Palace software*1986*]
 
