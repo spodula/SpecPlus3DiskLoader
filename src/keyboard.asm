@@ -55,6 +55,7 @@ GET_KEYBOARD:
     LD A,(HL)
     RET
 
+;*************************************************************************
 GKB_KEYBOARDTABLE:
 ;Unshifted characters
     defb " zxcv"
@@ -74,7 +75,7 @@ GKB_KEYBOARDTABLE:
     defb $22,";",$AC,$C5,$C6
     defb " ","=","+","-",$5E
     defb " "," ",".",",","*"
-;CAPS shifted charactersc
+;CAPS shifted characters
     defb " ZXCV"
     defb "ASDFG"
     defb "QWERT"

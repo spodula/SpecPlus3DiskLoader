@@ -1,3 +1,9 @@
+;*****************************************************************
+; Do a catalog of all the .BAS files and place the data in catbuf
+; This has been extended from the example in the +3 Manual
+; to handle case of >64 entries (Much more likely on HDDs)
+;*****************************************************************
+
 include 'diskloader.i'
 include 'system/plusthreedos.i'
 include 'system/spectrum128.i'

@@ -1,11 +1,9 @@
 ;**********************************************
 ;Load the given file (BASIC file only)
-; HL = filename
+; HL = filename (Between $4000 an $C000)
 ;
-;This is basically a copy of the first
-;few bytes from the "load DISK" code from Rom 1. 
-;It will return if it fails, otherwise wont return.
-; This will work, but is probably not ideal.
+; This basically sets up the tokenised text for
+; Load "xxxxx.bas" and passes it to 128K BASIC for execution.
 ;**********************************************
 org $6C80
 

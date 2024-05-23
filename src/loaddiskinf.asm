@@ -1,6 +1,16 @@
 ;**********************************************
-;infobuffer
+; This will load a given file to the given location from the
+; current default disk.
+; Note, this always assume page 0 in $C000 for target.
+; On Entry, 
+;       HL = filename
+;       DE = Max bytes to load
+;       BC = Load address
+; On Exit,
+; Success: c = 0
+; Error:   c = error code if any.
 ;**********************************************
+
 include 'diskloader.i'
 include 'system/plusthreedos.i'
 include 'system/spectrum128.i'
