@@ -4,7 +4,7 @@ Disk catalog and boot loader for Spectrum +3/+3E disks.
 Note, there are much better options than this for +3 program selectors.
 Use Octocom's Workbench instead for what i consider to be the best.
 
-The only reason this is here is because i started on this before I came across the above, i dont like to leave things unfinished and there are some useful code snippets I would probably loose after my computers next brain fart if i didnt. 
+The only reason this is here is because i started on this before I came across the above, i dont like to leave things unfinished and there are some useful code snippets I would probably lose after my computers next brain fart if i didnt. 
 
 # Features
 The program features the following:
