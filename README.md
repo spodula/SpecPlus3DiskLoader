@@ -46,7 +46,7 @@ This file contains a list of information to populate the Right hand screen. It c
 
 the format is as follows
 
-XXXXXXX NNNNN**PUB**YEAR**NOTES]
+XXXXXXX NNNNN * PUB * YEAR * NOTES]
 
 where XXXXXXX is the filename padded to 8 bytes with space. 
 
