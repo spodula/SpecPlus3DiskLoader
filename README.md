@@ -6,6 +6,8 @@ Use Octocom's Workbench instead for what i consider to be the best.
 
 The only reason this is here is because i started on this before I came across the above, i dont like to leave things unfinished and there are some useful code snippets I would probably lose after my computers next brain fart if i didnt. 
 
+![Screenshot](/screenshot.png?raw=true)
+
 # Features
 The program features the following:
 
